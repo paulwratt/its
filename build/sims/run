@@ -11,6 +11,11 @@ set mty enabled
 at mty 10003
 set ten11 enabled
 at ten11 10011
+set imp enabled
+set imp mac=9a:72:60:f7:8c:20
+set imp ip=192.168.0.20/24
+set imp gw=192.168.0.1
+set imp host=10.3.0.6
 at ptr bin/ka10/boot/dskdmp.rim
 at dpa0 out/sims/rp03.2
 at dpa1 out/sims/rp03.3
@@ -19,5 +24,6 @@ at dpa3 out/sims/rp03.1
 set mta mpx=7
 set mta type=b
 set dt mpx=6
+set imp mpx=4
 set dpa noheaders
 b ptr
