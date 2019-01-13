@@ -21,7 +21,7 @@
 	url = https://github.com/larsbrinkhoff/mldev
 [submodule "tools/sims"]
 	path = tools/sims
-	url = https://github.com/larsbrinkhoff/ka10-simh
+	url = https://github.com/rcornwell/sims
 [submodule "tools/tv11"]
 	path = tools/tv11
 	url = https://github.com/aap/tv11
